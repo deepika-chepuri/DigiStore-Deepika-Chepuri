@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>buy</title>
+
+
+
+
+    <STYLE>
+        body{
+            color:#122b40;
+            font-family:Lucida Calligraphy;
+            font-size:30px;
+            margin-top:40px;
+            background-color:powderblue;
+            position:absolute;
+            padding-left:420px;
+        }
+        p{
+            margin-top:200px;
+        }
+        h3{
+            color:rebeccapurple;
+            font-family:Lucida Calligraphy;
+            font-size:30px;
+
+        }
+        .page{
+            margin-top: -25px;
+        }
+
+    </STYLE>
+</head>
+<body>
+<p>*//PURCHASED SUCCESSFULLY\\*</p>
+<h3 style="padding-left:220px">..Thank you</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="page">
+            <a href="{% url 'products' %}" style="padding-left:280px"><input type="button" value="Home" style="background-color:lightsteelblue"></a>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+
+    </div>
+</div>
+
+</body>
+</html>

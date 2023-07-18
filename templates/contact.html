@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Electro - HTML Ecommerce Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/slick.css' %}"/>
+		<link type="text/css" rel="stylesheet" href="{% static 'css/slick-theme.css' %}"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/nouislider.min.css' %}"/>
+
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+
+
+
+
+		<!-- HEADER -->
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<a href="#" class="logo">
+						<img src="{% static 'img/icon.png' %}" alt=""  height="50px"  width="100px">
+					</a>
+
+
+                    <ul class="header-links ">
+
+
+					<!-- row --><center>
+						<li><a href="{% url 'index' %}" style="padding-left:490px;"><i class="fa "></i>HOME</a></li>
+
+
+                        <li><a href="{% url 'index' %}"><i class="fa "></i>LOGOUT</a></li>
+
+
+							</center>
+
+					</ul>
+
+
+
+
+
+				</div>
+			</div>
+
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-1">
+
+						</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+						<!-- /LOGO -->
+
+
+
+		<!-- HOT DEAL SECTION -->
+		<div id="hot-deal" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="hot-deal">
+
+							<h2 class="text-uppercase">Welcome to Digi-Store</h2>
+							<p>New Collection Up to 50% OFF</p>
+
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /HOT DEAL SECTION -->
+    <style>
+    .box{
+        position: absolute;
+        width:100%;
+        height:350px;
+        background-color: #1b1e21;
+        margin-top:-10px;
+    }
+    .address{
+        padding-left: 50px;
+    }
+    .email{
+        padding-left: 50px;
+    }
+    .phone{
+        padding-left: 50px;
+    }
+    .main{
+        font-family: 'Genos', sans-serif;
+    }
+    iframe{
+       width:100%;
+        height:500px;
+        margin-top:340px;
+
+
+    }
+    .location{
+        margin-top: -190px;
+    }
+</style>
+
+
+
+</head>
+
+<body class="main">
+<div class="box">
+    <h1 style="padding-left:50px;padding-top:30px;color:white;">contact us</h1>
+    <div class="address">
+        <i class="fa fa-address-book-o" aria-hidden="true" style="color:#c8143f;font-size:40px;"></i>
+        <p style="color:white;padding-left:60px;margin-top:-33px;font-size:20px;font-family: 'Lucida Calligraphy'">MILES AND SMILES ROAD</p>
+
+    </div><br>
+    <div class="email">
+        <i class="fa fa-envelope-o" aria-hidden="true" style="color:#c8143f;font-size:40px"></i>
+        <p style="color:white;padding-left:60px;margin-top:-33px;font-size:20px;font-family: 'Lucida Calligraphy';">deepu7788@gmail.com</p>
+
+    </div><br>
+    <div class="phone">
+         <i class="fa fa-phone" aria-hidden="true" style="color:#c8143f;font-size:40px;"></i>
+        <p style="color:white;padding-left:60px;margin-top:-33px;font-size:20px;font-family: 'Lucida Calligraphy'">2324567892</p>
+    </div>
+<div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.36271427536!2d81.9194972699454!3d16.85794258237676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37969a681a69f7%3A0x4b41f784e70e268e!2sVignan%20Junior%20College!5e0!3m2!1sen!2sin!4v1686760138672!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+</body>
+</html>

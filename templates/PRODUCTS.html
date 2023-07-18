@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Electro - HTML Ecommerce Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/slick.css' %}"/>
+		<link type="text/css" rel="stylesheet" href="{% static 'css/slick-theme.css' %}"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/nouislider.min.css' %}"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<a href="#" class="logo">
+						<img src="{% static 'img/icon.png' %}" alt=""  height="50px"  width="100px">
+					</a>
+					<ul class="header-links ">
+
+
+
+					<!-- row --><center>
+					<li><a href="{% url 'index' %}" style="padding-left:800px;"><i class="fa "></i> HOME</a></li>
+
+
+                    </center>
+                    </ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+
+
+    </head>
+    <h1 style="color:whitesmoke;padding-left:550px;margin-top: 40px;font-size: 30px;font-family: 'Lucida Calligraphy'">Choose your category...</h1>
+    <body style="background-color:black">
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+			<!-- section title -->
+
+				<!-- /section title -->
+					<!-- Products tab & slick -->
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-3">
+
+
+										<!-- product -->
+										<div class="product">
+                                            <div class="product-body">
+											<a href="{% url 'lap' %}">
+
+                                                <img src="{% static 'img/h99.jpg'  %}" alt="" height="200px" width="200px">
+                                                </a>
+                                                </div>
+                                                <div class="product-content" style="font-style: times; color:pink">
+                                                    <a href="{% url 'lap' %}"><h1 style="font-style: times; color:white;font-size: 30px;font-family:Lucida Calligraphy;margin-top: 10px;padding-left:40px">LAPTOPS</h1></a>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Portability&convenience</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Good for employees,students</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Better Performance</p>
+
+                                    </div></div>
+                            </div>
+                                <div class="col-sm-3">
+
+
+										<!-- product -->
+										<div class="product">
+                                            <div class="product-body">
+											<a href="{% url 'mob' %}">
+
+                                                <img src="{% static 'img/g66.jpg'  %}" alt="" height="200px" width="200px">
+                                                </a>
+                                                </div>
+                                                <div class="product-content" style="font-style: times; color:pink">
+                                                    <a href="{% url 'mob' %}"><h1 style="font-style: times; color:white;font-size: 30px;font-family:Lucida Calligraphy;margin-top: 10px;padding-left:40px">MOBILES</h1></a>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Photos and Videos sharing</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Texting,make&Receive calls</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Entertainment</p>
+
+                                    </div></div>
+                                </div>
+                            <div class="col-sm-3">
+
+
+										<!-- product -->
+										<div class="product">
+                                            <div class="product-body">
+											<a href="{% url 'tabs' %}">
+
+                                                <img src="{% static 'img/h88.jpg'  %}" alt="" height="200px" width="200px">
+                                                </a>
+                                                </div>
+                                                <div class="product-content" style="font-style: times; color:pink">
+                                                    <a href="{% url 'tabs' %}"><h1 style="font-style: times; color:white;font-size: 30px;font-family:Lucida Calligraphy;margin-top: 10px;padding-left:80px">TABS</h1></a>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.High Pexel Density</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.light-weighted</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.touch screen laptop</p>
+
+                                    </div></div>
+                            </div>
+                            <div class="col-sm-3">
+
+
+										<!-- product -->
+										<div class="product">
+                                            <div class="product-body">
+											<a href="{% url 'watch' %}">
+
+                                                <img src="{% static 'img/a44.jpg'  %}" alt="" height="200px" width="200px">
+                                                </a>
+                                                </div>
+                                                <div class="product-content" style="font-style: times; color:pink">
+                                                    <a href="{% url 'watch' %}"><h1 style="font-style: times; color:white;font-size: 30px;font-family:Lucida Calligraphy;margin-top: 10px;padding-left:40px">WATCHES</h1></a>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Receive&Make calls</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Health and Activity Tracking</p>
+                                                    <p STYLE="color:lightpink;padding-left:25px;font-size:15px">.Easy of use in Real Time</p>
+
+                                    </div></div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+
